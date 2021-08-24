@@ -1,0 +1,1 @@
+{"version":1,"defects":[],"times":{"UnitTestRow\\RowTest::testgetCountNum":0.003,"UnitTestRow\\RowTest::testgetCountNumeric":0,"UnitTestRow\\RowTest::testgetArabNum":0,"UnitTestRow\\RowTest::testgetKir":0,"UnitTestRow\\RowTest::testgetLat":0,"UnitTestRow\\RowTest::testgetSymbol":0,"UnitTestRow\\RowTest::testgetTopBot":0,"UnitTestRow\\RowTest::testgetWhitespace":0}}
