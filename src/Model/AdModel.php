@@ -22,6 +22,7 @@ SELECT
     `ad`.`engine`,
     `ad`.`price`,
     `users`.`name` AS 'users_id'
+    
    
 FROM
     `users`,
@@ -56,6 +57,7 @@ SQL;
         return $arr;
 
     }
+
     public function getNameList()
     {
         $data = $this->query("SELECT `id`,`name` FROM `users` WHERE `user_groups_id`=3");

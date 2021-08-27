@@ -18,3 +18,4 @@ echo (new Pagination())
 ?>
 
 <a href="?type=<?= $this->data['controllerName'] ?>&action=showadd" class="btn btn-primary">Добавить</a>
+123

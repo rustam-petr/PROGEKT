@@ -4,7 +4,7 @@ use W1020\HTML\Select;
 
 ?>
 
-<form action="<?= $this->data['action'] ?>" method="post">
+<form enctype="multipart/form-data" action="<?= $this->data['action'] ?>" method="post">
     <?php
     foreach ($this->data["comments"] as $field => $value) {
         if ($field == 'marka_auto_id') {
@@ -24,7 +24,17 @@ use W1020\HTML\Select;
 //                    ->setSelected($this->data["row"]['users_id'] ?? "")
 //                    ->html() . '<br>';
 
-        } else {
+        } elseif ($field == 'picture') {
+            echo $value . "<br>";
+            echo "<input type='file' name='$field'><br>";
+
+//            echo (new Select())
+//                    ->setName($field)
+//                    ->setData($this->data["loginList"])
+//                    ->setSelected($this->data["row"]['users_id'] ?? "")
+//                    ->html() . '<br>';
+
+        }else {
             echo $value . "<br>";
             echo "<input name='$field' value='" . ($this->data['row'][$field] ?? "") . "'><br>";
 

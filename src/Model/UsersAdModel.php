@@ -32,7 +32,8 @@ SELECT
     `ad`.`year`,
     `ad`.`engine`,
     `ad`.`price`,
-    `users`.`name` AS 'users_id'
+    `users`.`name` AS 'users_id',
+    `ad`.`picture`
     
 FROM
     `users`,

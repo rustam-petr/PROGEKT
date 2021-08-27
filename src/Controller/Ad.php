@@ -48,8 +48,10 @@ class Ad extends Table
             ->addData(["groupList" => $this->model->getGroupList(),
                 "markaList" => $this->model->getMarka(),
                 "loginList" => $this->model->getNameList()
-                ])
+            ])
             ->setTemplate("Ad/add_edit");
 
     }
+
+
 }
