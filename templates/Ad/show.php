@@ -2,7 +2,13 @@
 
 use W1020\HTML\Pagination;
 use W1020\HTML\Table;
-
+foreach ($this->data["table"] as &$row) {
+    if (empty($row["picture"])) {
+        $row["picture"] = '<img src="public/images/ad/siluet_auto.jpg" height="50" alt="">';
+    } else {
+        $row["picture"] = '<img src="public/images/ad/' . ($row["id"] . $row["picture"]) . '" height="50" alt="">';
+    }
+}
 echo (new Table())
     ->setData($this->data["table"])
     ->setHeaders($this->data["comments"])
@@ -17,5 +23,5 @@ echo (new Pagination())
     ->html();
 ?>
 
-<a href="?type=<?= $this->data['controllerName'] ?>&action=showadd" class="btn btn-primary">Добавить</a>
+<!--<a href="?type=--><?//= $this->data['controllerName'] ?><!--&action=showadd" class="btn btn-primary">Добавить</a>-->
 

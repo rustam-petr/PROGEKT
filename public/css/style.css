@@ -110,5 +110,44 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 .table {
     width: 100%;
     margin-bottom: 1rem;
+    /*color: yellow;*/
+}
+.table {
+    --bs-table-bg: transparent;
+    --bs-table-accent-bg: transparent;
+    --bs-table-striped-color: white;
+    --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+    --bs-table-active-color: white;
+    --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+    --bs-table-hover-color: white;
+    --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+    width: 100%;
+    margin-bottom: 1rem;
     color: yellow;
+    vertical-align: top;
+    border-color: #dee2e6;
+    text-shadow: 2px 2px 2px black;
+}
+.strin {
+    background-color: background: -moz-linear-gradient(top, rgba(9,27,47,1) 0%, rgba(9,27,47,0.78) 22%, rgba(16,59,92,0) 100%)!important;
+    background: -webkit-linear-gradient(top, rgba(9,27,47,1) 0%,rgba(9,27,47,0.78) 22%,rgba(16,59,92,0) 100%)!important;
+    background: linear-gradient(to bottom, rgba(9,27,47,1) 0%,rgba(9,27,47,0.78) 22%,rgba(16,59,92,0) 100%)!important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#091b2f', endColorstr='#00103b5c',GradientType=0 );
+    color: chartreuse!important;
+    text-shadow: 3px 3px 3px black;
+}
+/*.dungeon{*/
+/*    padding-left: 45%;*/
+/*    padding-top: 8%;*/
+/*    color: chartreuse;*/
+/*    text-shadow: 2px 2px 2px black;*/
+/*}*/
+.links{
+    color: silver;
+}
+.dungeons{
+    padding-left: 45%;
+    padding-top: 19%;
+    color: chartreuse;
+    text-shadow: 2px 2px 2px black;
 }

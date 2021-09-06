@@ -31,7 +31,9 @@
                    href="?type=Guestad&action=show">Объявления о продаже автомашин</a>
             </li>
 
+
         </ul>
     </div>
 </nav>
+
 

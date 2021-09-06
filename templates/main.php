@@ -32,6 +32,9 @@ if (!empty($_SESSION['warnings'])) {
  */
 $this->body();
 ?>
+<div class="dungeons">
+    <h6>Made Rustam Zaitsev <a class="links" href="https://github.com/rustam-petr/PROGEKT.git">GITHUB</a></h6>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
         crossorigin="anonymous"></script>
